@@ -1,6 +1,3 @@
-// Names:
-// x
-//Hosh0013
 import java.util.Random;
 public class MyMaze{
    Cell[][] maze;
@@ -16,7 +13,6 @@ public class MyMaze{
             }
         }
     }
-    /* TODO: Create a new maze using the algorithm found in the writeup. */
     public static MyMaze makeMaze(int rows, int cols, int startRow1, int endRow1) {
         MyMaze maze1 = new MyMaze(rows,cols,startRow1,endRow1);
         Stack1Gen<int []>stack = new Stack1Gen();
@@ -82,7 +78,6 @@ public class MyMaze{
         }
         return maze1;
     }
-    /* TODO: Print a representation of the maze to the terminal */
     public void printMaze() {
         String printed_maze = "|";
         for(int a = 0; a < maze[0].length; a++){     //creates very top row |---|
@@ -126,7 +121,6 @@ public class MyMaze{
         }
         System.out.print(printed_maze);
     }
-    /* TODO: Solve the maze using the algorithm found in the writeup. */
     public void solveMaze() {
         Q2Gen<int[]> queue = new Q2Gen();            //creates queue and adds start row
         queue.add(new int[] {startRow,0});
