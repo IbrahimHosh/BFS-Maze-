@@ -157,4 +157,3 @@ public class MyMaze{
         maze2.solveMaze();
     }
 }
-// Hosh0013
