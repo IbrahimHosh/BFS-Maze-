@@ -1,8 +1,5 @@
 // StackGen.java
-// A Possible Generic Stack Interface
-// Identify the methods as necssary, nice to have,
-// or redundant
-
+//  Generic Stack Interface
 public interface StackGen <T> {
 
 // Interface for a Generic Stack
@@ -24,8 +21,4 @@ public interface StackGen <T> {
        if the stack contains no items */
 
     public boolean isEmpty();
-
-    /* returns true when a stack currently contains no items, false 
-       otherwise */
-
-}  // StackGen Interface
+}  
