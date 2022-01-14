@@ -36,8 +36,7 @@ public class Stack1Gen <T> implements StackGen<T> {
         else return false;
     }
 
-    // instance variables
 
     private NGen<T> start = null;
 
-}  // Stack1Gen class
+}  
