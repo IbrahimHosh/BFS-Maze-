@@ -12,17 +12,11 @@ public class Cell {
         right = true;
         bottom = true;
     }
-
-    /**********
-     * Setter functions
-     **********/
     public void setVisited(boolean visited) { this.visited = visited; }
     public void setRight(boolean right) { this.right = right; }
     public void setBottom(boolean bottom) { this.bottom = bottom; }
 
-    /**********
-     * Getter functions
-     **********/
+    
     public boolean getVisited() { return visited; }
     public boolean getRight() { return right; }
     public boolean getBottom() { return bottom; }
