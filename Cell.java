@@ -15,8 +15,6 @@ public class Cell {
     public void setVisited(boolean visited) { this.visited = visited; }
     public void setRight(boolean right) { this.right = right; }
     public void setBottom(boolean bottom) { this.bottom = bottom; }
-
-    
     public boolean getVisited() { return visited; }
     public boolean getRight() { return right; }
     public boolean getBottom() { return bottom; }
