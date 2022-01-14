@@ -20,4 +20,4 @@ public interface QGen <T> {
     /* returns the integer quantity of items currently present in the 
        queue */ 
 
-}  // QGen Interface
+}  
