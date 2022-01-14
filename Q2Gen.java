@@ -1,11 +1,10 @@
 // Q2Gen.java
 // Simple QGen interface implemented using an array of generic objects
-// Revised 11/2020
 
 public class Q2Gen <T> implements QGen <T> {
     // constructors
     public Q2Gen() {
-        q = (T[]) new Object[3];  // generic array allocation not allowed
+        q = (T[]) new Object[3];  
     }
 
     public Q2Gen(int initLength) {
@@ -55,5 +54,5 @@ public class Q2Gen <T> implements QGen <T> {
     private int size;
     private int front;
     private int rear = -1;
-}  // Q2Gen class
+} 
 
