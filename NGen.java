@@ -1,6 +1,5 @@
 // NGen.java
 // A *simplified* generic node class for use with Stack1Gen class 
-// and other data structures as desired; uses generics for the data
 
 public class NGen <T> {
   
@@ -36,4 +35,4 @@ public class NGen <T> {
     private T data;
     private NGen<T> next;
 
-}  // NGen class
+} 
